@@ -30,7 +30,7 @@ def position_taken?(board, index)
   end
 end
 
-def turn(board)
+def turn(board, index)
   puts "Please enter 1-9"
   input = gets.strip
   if valid_move?(board, index)
